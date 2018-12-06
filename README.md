@@ -10,6 +10,7 @@ Online manga reader based on Android
 [![codebeat badge](https://codebeat.co/badges/a22ca260-494d-4be8-9e3d-fc9c8f7d0f73)](https://codebeat.co/projects/github-com-feilongfl-cimoc-release-tci)
 [![GitHub release](https://img.shields.io/github/release/feilongfl/Cimoc.svg)](https://github.com/feilongfl/Cimoc)
 [![Join the chat at https://gitter.im/flcimoc/Lobby](https://badges.gitter.im/flcimoc/Lobby.svg)](https://gitter.im/flcimoc/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffeilongfl%2FCimoc.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffeilongfl%2FCimoc?ref=badge_shield)
 
 # 下载
 > 所有release由travis-ci编译发布，如果在release界面某个版本没有apk，那么要么是正在编译，要么就是编译失败了
@@ -67,3 +68,7 @@ Online manga reader based on Android
 - （可选）在BrowserFilter中registUrlListener添加相应type，实现关联浏览器操作
 > 在app\src\main\java\com\hiroshi\cimoc\ui\activity\BrowserFilter.java中
 > 修改后运行app\src\main\GenAndroidManifest.fish，使用自动生成的BrowserFilter-data.xml替换AndroidManifest.xml中相应部分
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffeilongfl%2FCimoc.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffeilongfl%2FCimoc?ref=badge_large)
