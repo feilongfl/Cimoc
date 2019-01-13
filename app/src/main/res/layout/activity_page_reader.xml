@@ -6,7 +6,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/black">
+        android:background="@color/white">
         <com.hiroshi.cimoc.ui.widget.rvp.RecyclerViewPager
             android:id="@+id/reader_recycler_view"
             android:layout_width="match_parent"
@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="@string/reader_picture_loading"
-            android:textColor="@color/white"/>
+            android:textColor="@color/black"/>
         <include layout="@layout/custom_reader_info"/>
         <include layout="@layout/custom_back_btn"/>
         <include layout="@layout/custom_seek_bar"/>
