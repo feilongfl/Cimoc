@@ -305,7 +305,8 @@ public class MainActivity extends BaseActivity implements MainView, NavigationVi
 
     @Override
     public void onUpdateReady() {
-        HintUtils.showToast(this, R.string.main_ready_update);
+        // 屏蔽更新
+        //HintUtils.showToast(this, R.string.main_ready_update);
     }
 
     @Override
