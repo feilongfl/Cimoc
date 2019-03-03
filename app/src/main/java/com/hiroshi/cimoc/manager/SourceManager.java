@@ -17,6 +17,7 @@ import com.hiroshi.cimoc.source.DM5;
 import com.hiroshi.cimoc.source.Dmzj;
 import com.hiroshi.cimoc.source.Dmzjv2;
 import com.hiroshi.cimoc.source.EHentai;
+import com.hiroshi.cimoc.source.GuFeng;
 import com.hiroshi.cimoc.source.HHAAZZ;
 import com.hiroshi.cimoc.source.HHSSEE;
 import com.hiroshi.cimoc.source.Hhxxee;
@@ -185,6 +186,9 @@ public class SourceManager {
                     break;
                 case ManHuaDB.TYPE:
                     parser = new ManHuaDB(source);
+                    break;
+                case GuFeng.TYPE:
+                    parser = new GuFeng(source);
                     break;
 
                 default:
