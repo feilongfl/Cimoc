@@ -9,6 +9,7 @@ import com.hiroshi.cimoc.model.Source;
 import com.hiroshi.cimoc.source.Animx2;
 import com.hiroshi.cimoc.source.BaiNian;
 import com.hiroshi.cimoc.source.BuKa;
+import com.hiroshi.cimoc.source.CCMH;
 import com.hiroshi.cimoc.source.CCTuku;
 import com.hiroshi.cimoc.source.Cartoonmad;
 import com.hiroshi.cimoc.source.ChuiXue;
@@ -105,6 +106,7 @@ public class UpdateHelper {
         list.add(TuHao.getDefaultSource());
         list.add(ManHuaDB.getDefaultSource());
         list.add(GuFeng.getDefaultSource());
+        list.add(CCMH.getDefaultSource());
         session.getSourceDao().insertOrReplaceInTx(list);
     }
 }
