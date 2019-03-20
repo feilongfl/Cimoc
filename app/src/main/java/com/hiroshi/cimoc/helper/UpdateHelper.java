@@ -22,10 +22,12 @@ import com.hiroshi.cimoc.source.HHAAZZ;
 import com.hiroshi.cimoc.source.HHSSEE;
 import com.hiroshi.cimoc.source.Hhxxee;
 import com.hiroshi.cimoc.source.IKanman;
+import com.hiroshi.cimoc.source.MH517;
 import com.hiroshi.cimoc.source.MH57;
 import com.hiroshi.cimoc.source.ManHuaDB;
 import com.hiroshi.cimoc.source.MH50;
 import com.hiroshi.cimoc.source.MangaNel;
+import com.hiroshi.cimoc.source.Manhuatai;
 import com.hiroshi.cimoc.source.MiGu;
 import com.hiroshi.cimoc.source.NetEase;
 import com.hiroshi.cimoc.source.PuFei;
@@ -94,6 +96,7 @@ public class UpdateHelper {
         list.add(PuFei.getDefaultSource());
         list.add(Cartoonmad.getDefaultSource());
         list.add(Animx2.getDefaultSource());
+        list.add(MH517.getDefaultSource());
         list.add(BaiNian.getDefaultSource());
         list.add(MiGu.getDefaultSource());
         list.add(Tencent.getDefaultSource());
@@ -107,6 +110,7 @@ public class UpdateHelper {
         list.add(ManHuaDB.getDefaultSource());
         list.add(GuFeng.getDefaultSource());
         list.add(CCMH.getDefaultSource());
+        list.add(Manhuatai.getDefaultSource());
         session.getSourceDao().insertOrReplaceInTx(list);
     }
 }

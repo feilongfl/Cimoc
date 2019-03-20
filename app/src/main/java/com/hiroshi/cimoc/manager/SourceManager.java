@@ -10,7 +10,6 @@ import com.hiroshi.cimoc.parser.Parser;
 import com.hiroshi.cimoc.source.Animx2;
 import com.hiroshi.cimoc.source.BaiNian;
 import com.hiroshi.cimoc.source.BuKa;
-import com.hiroshi.cimoc.source.CCMH;
 import com.hiroshi.cimoc.source.CCTuku;
 import com.hiroshi.cimoc.source.Cartoonmad;
 import com.hiroshi.cimoc.source.ChuiXue;
@@ -18,7 +17,6 @@ import com.hiroshi.cimoc.source.DM5;
 import com.hiroshi.cimoc.source.Dmzj;
 import com.hiroshi.cimoc.source.Dmzjv2;
 import com.hiroshi.cimoc.source.EHentai;
-import com.hiroshi.cimoc.source.GuFeng;
 import com.hiroshi.cimoc.source.HHAAZZ;
 import com.hiroshi.cimoc.source.HHSSEE;
 import com.hiroshi.cimoc.source.Hhxxee;
@@ -187,12 +185,6 @@ public class SourceManager {
                     break;
                 case ManHuaDB.TYPE:
                     parser = new ManHuaDB(source);
-                    break;
-                case GuFeng.TYPE:
-                    parser = new GuFeng(source);
-                    break;
-                case CCMH.TYPE:
-                    parser = new CCMH(source);
                     break;
 
                 default:
