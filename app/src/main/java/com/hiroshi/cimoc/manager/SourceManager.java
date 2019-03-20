@@ -17,6 +17,7 @@ import com.hiroshi.cimoc.source.DM5;
 import com.hiroshi.cimoc.source.Dmzj;
 import com.hiroshi.cimoc.source.Dmzjv2;
 import com.hiroshi.cimoc.source.EHentai;
+import com.hiroshi.cimoc.source.GuFeng;
 import com.hiroshi.cimoc.source.HHAAZZ;
 import com.hiroshi.cimoc.source.HHSSEE;
 import com.hiroshi.cimoc.source.Hhxxee;
@@ -24,6 +25,7 @@ import com.hiroshi.cimoc.source.IKanman;
 import com.hiroshi.cimoc.source.Locality;
 import com.hiroshi.cimoc.source.MH50;
 import com.hiroshi.cimoc.source.MH57;
+import com.hiroshi.cimoc.source.MHLove;
 import com.hiroshi.cimoc.source.ManHuaDB;
 import com.hiroshi.cimoc.source.MangaNel;
 import com.hiroshi.cimoc.source.MiGu;
@@ -185,6 +187,12 @@ public class SourceManager {
                     break;
                 case ManHuaDB.TYPE:
                     parser = new ManHuaDB(source);
+                    break;
+                case MHLove.TYPE:
+                    parser = new MHLove(source);
+                    break;
+                case GuFeng.TYPE:
+                    parser = new MHLove(source);
                     break;
 
                 default:
