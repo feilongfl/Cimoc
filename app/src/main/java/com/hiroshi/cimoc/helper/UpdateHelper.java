@@ -109,10 +109,10 @@ public class UpdateHelper {
         list.add(BaiNian.getDefaultSource());
         list.add(TuHao.getDefaultSource());
         list.add(ManHuaDB.getDefaultSource());
-        list.add(GuFeng.getDefaultSource());
         list.add(CCMH.getDefaultSource());
         list.add(Manhuatai.getDefaultSource());
         list.add(MHLove.getDefaultSource());
+        list.add(GuFeng.getDefaultSource());
         session.getSourceDao().insertOrReplaceInTx(list);
     }
 }

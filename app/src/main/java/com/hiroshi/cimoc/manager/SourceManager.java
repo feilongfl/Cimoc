@@ -192,7 +192,7 @@ public class SourceManager {
                     parser = new MHLove(source);
                     break;
                 case GuFeng.TYPE:
-                    parser = new MHLove(source);
+                    parser = new GuFeng(source);
                     break;
 
                 default:
