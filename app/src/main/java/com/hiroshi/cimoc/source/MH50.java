@@ -130,7 +130,7 @@ public class MH50 extends MangaParser {
     }
 
     private final String server[] = {
-//            "https://res.manhuachi.com/",
+//            https://mhcdn.manhuazj.com/",
             "https://res.333dm.com/",
             "https://res02.333dm.com/"
     };
