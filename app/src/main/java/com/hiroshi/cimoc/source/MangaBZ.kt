@@ -27,7 +27,7 @@ class MangaBZ(source: Source?) : MangaParser() {
     @Throws(UnsupportedEncodingException::class)
     override fun getSearchRequest(keyword: String, page: Int): Request {
         var url = "http://www.mangabz.com/search?title=$keyword&page=$page"
-        return Request.Builder().url(url).build()
+        return Request.Builder().url(url).header("cookie", "mangabz_lang=2").build()
     }
 
     override fun getSearchIterator(html: String, page: Int): SearchIterator {
@@ -54,7 +54,7 @@ class MangaBZ(source: Source?) : MangaParser() {
 
     override fun getInfoRequest(cid: String): Request {
         val url = "http://www.mangabz.com/$cid/"
-        return Request.Builder().url(url).build()
+        return Request.Builder().url(url).header("cookie", "mangabz_lang=2").build()
     }
 
     @Throws(UnsupportedEncodingException::class)
